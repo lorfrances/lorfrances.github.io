@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Interactive electron Monte Carlo</title>
+        <script src="https://cdn.jsdelivr.net/npm/mathjs@11/lib/browser/math.js"></script>
+        <script src="sim.js" defer></script>
+    </head>
+    <body style="font-family:sans-serif; font-size:15px; width:800px; margin-left:auto; margin-right:auto; background-color:#e0e0e0;">
+        <h1>Interactive electron Monte Carlo</h1>
+        <div style="display: flex; align-items: flex-end; gap: 10px;">
+            <!-- Canvases stacked vertically -->
+            <div style="display: flex; flex-direction: column; gap: 0px; align-items: center;">
+                <canvas id="theCanvas" width="500" height="500" style="border:0px solid black; background-color:black;"></canvas>
+                <canvas id="CanvasHist" width="520" height="120" style="border:0px solid black;"></canvas>
+            </div>
+            <!-- Slider and velocity canvas -->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0px; font-family:sans-serif; font-size:18px; height: 600px;">
+            <!-- Slider at top -->
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 0px;">
+                <label for="eField">
+                    Electric field [-100]: <span id="eFieldValue">0.00 </span> MV/m
+                </label>
+                <input type="range" id="eField" min="0.0" max="3.0" step="0.02" value="0.0" style="writing-mode: bt-lr; height:25px;">
+            </div>
+
+            <!-- Velocity canvas pushed to bottom -->
+            <canvas id="CanvasVel" width="220" height="120" style="border:0px solid black; margin-top: auto;"></canvas>
+        </div>
+
+        <script>
+        const slider = document.getElementById("eField");
+        const valueLabel = document.getElementById("eFieldValue");
+
+        // Update label as slider moves
+        slider.addEventListener("input", () => {
+            valueLabel.textContent = Number(slider.value).toFixed(2);
+        });
+        </script>
+    </div>
+    
+    
+    <p>
+         <br>
+         <br>
+        
+        This web applet simulates an ensemble of 5,000 electrons in GaAs at 300 K, in k space only (0D). This is based on the electron
+        Monte Carlo method (<a href="https://en.wikipedia.org/wiki/Monte_Carlo_methods_for_electron_transport">Wikipedia</a>). 
+        The electrons drift classically under the electric field, but scatter quantum-mechanically with phonons (polar optical and
+        intervalley). Scattering events are probabilistic, so random numbers are used (hence the name).
+        The creation of this applet was inspired by the online <a href="https://physics.weber.edu/schroeder/md/">Interactive Molecular Dynamics</a>.
+        Hopefully, it can help students learning carrier transport and semiconductor physcis (as myself).
+        <br>
+        <br>
+        <ul>
+            <li>
+                The first figure is a 2D projection of the 1st <a href="https://en.wikipedia.org/wiki/Brillouin_zone">Brillouin zone</a>
+                for FCC GaAs. The &Gamma; valley is at the center [000] and is spherical and populated at no field. As the field is increased,
+                electrons gain kinetic energy and can scatter into satellite (L, X) valleys whose constant energy surface is ellipsoidal (hence
+                their elongated appearance). By 2D projection, I mean that we plot k_y vs. k_x, regardless of k_z.
+            </li>
+            <br>
+            <li>
+                    The second figure is the electron energy histogram (counts at energy), with the reference point as the bottom of the &Gamma; valley.
+                    Note that at no field, the average energy is 1.5*k_B*T. As the electric field is increased, the energy distribution
+                    broadens and electrons occupy the satellite valleys.
+            </li>
+            <br>
+            <li>
+                    The third figure is the electron velocity histogram (counts at velocity). Study the average velocity as you increase the field. 
+                    Due to the low mobility of the satellite valleys, you will observe the <a href="https://en.wikipedia.org/wiki/Gunn_diode">Gunn effect</a>.
+            </li>
+        </ul>
+        <br>
+        The program is written in JavaScript. You can see the code by inspecting the page source in your browser. (Warning: the code
+        is ugly...this was an experiment!)
+        <br>
+        <br>
+        <br>
+        Lorenzo Franceschetti <br>
+        University of Michigan, 2026.
+
+    </p>
+    </body>
+</html>

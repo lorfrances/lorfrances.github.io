@@ -15,8 +15,11 @@
                 <canvas id="CanvasHist" width="520" height="120" style="border:0px solid black;"></canvas>
             </div>
             <!-- Slider and velocity canvas -->
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 0px; font-family:sans-serif; font-size:18px; height: 600px;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; font-family:sans-serif; font-size:18px; height: 600px;">
             <!-- Slider at top -->
+            <button id="startBtn" onclick="toggleSim(state, scatt)" style="font-size:18px;">
+                Start/Stop
+            </button>            <!-- Slider at top -->
             <div style="display: flex; flex-direction: column; align-items: center; gap: 0px;">
                 <label for="eField">
                     Electric field [-100]: <span id="eFieldValue">0.00 </span> MV/m

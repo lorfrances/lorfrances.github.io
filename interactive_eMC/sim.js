@@ -695,14 +695,22 @@ function drawVelHist(avgs){
         const y = (VelHistCanvas.height-20) - avgs.aveVelHist[j]*BarScale;
         VelContext.fillRect(x,y,BarWidth_v,avgs.aveVelHist[j]*BarScale);
     }
+    VelContext.strokeStyle = "black"; // line color
+    VelContext.lineWidth = 1;        // line thickness
+    VelContext.beginPath();
+    VelContext.moveTo(120, 100);  // start point
+    VelContext.lineTo(120, 40); // end point
+    VelContext.stroke();
     veltoPrint = Math.round(avgs.aveVel*1000)/1000;
     VelContext.fillStyle = "black";
     VelContext.font= "20px Arial";
-    VelContext.fillText(`<v> = ${veltoPrint.toFixed(1)}`, 25, 25)
+    VelContext.fillText(`<v > = ${veltoPrint.toFixed(1)}`, 25, 25)
     VelContext.font= "20px Arial";
     VelContext.fillText("x10 cm/s", 130, 25)
     VelContext.font= "13px Arial";
     VelContext.fillText("6", 160, 12)
+    VelContext.font= "13px Arial";
+    VelContext.fillText("x", 46, 30)
 }
 
 function drawEnHist(avgs){
@@ -855,6 +863,7 @@ function drawKappa(state,mat) {
 
 
 function MCLoop(state, scatt) { 
+    if (!startstop) return;
     var eFieldSlider = document.getElementById("eField");
     const Fieldx = Number(eFieldSlider.value)*1e6
     let aveEnHist;
@@ -877,8 +886,16 @@ function MCLoop(state, scatt) {
 
 
 // // loop
-requestAnimationFrame(() => MCLoop(state, scatt));
-// // theContext.beginPath();
+let startstop = false; //off
+function toggleSim(state,Scatt){
+    startstop = !startstop
+    if (startstop){
+        MCLoop(state,Scatt)
+    }
+
+}
+
+    // // theContext.beginPath();
 // // theContext.arc(300, 50, 5s, 0, 2*Math.PI);
 // // theContext.fillStyle = "red";
 // // theContext.fill();

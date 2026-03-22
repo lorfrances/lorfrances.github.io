@@ -18,6 +18,11 @@ header h1 a {
   color: #015931;
 }
 
+header h1 a:hover {
+  color: #003d21;
+  font-weight: bold;
+}
+
 header a {
     line-height: 2.0;
 }

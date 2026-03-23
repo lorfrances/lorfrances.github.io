@@ -1,9 +1,5 @@
 **Surface Evolver codes for capillary wick simulation**
-<div class="side-by-side">
-  <div>
-    Text on the left.
-  </div>
-  <div>
-    <img src="/images/sample_meni.png">
-  </div>
+<div style="display: flex; gap: 20px;">
+  <img src="/images/sample_meni.png" style="width: 200px;">
+  <p>Your text here next to the image.</p>
 </div>

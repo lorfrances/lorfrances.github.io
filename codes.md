@@ -1,6 +1,6 @@
-<b>Surface Evolver codes for capillary wick simulation</b>
+<b style="font-size: 16px">Surface Evolver codes for capillary wick simulation</b>
 <img src="/images/sample_meni.png"
      style="float: left; width: 250px; margin-right: 20px; margin-bottom: 20px;">
-<p>
+<p style="font-size: 15px">
   Long text flows naturally around the image instead of fighting layout constraints...
 </p>

@@ -1,1 +1,11 @@
-Test, test test.
+<p>I am a third year PhD candidate and NSF Graduate Research Fellow in the Mechanical Engineering department at the University of Michigan. I work in the <a href="https://htp.engin.umich.edu/" title="Heat Transfer Physics Lab">Heat Transfer Physics Lab</a>,
+under the supervision of Prof. M. Kaviany. </p>
+
+My research focuses on nanoscale energy conversion and carrier transport, particularly in semiconductor devices. Specifically, I am interested in harnessing electron-phonon interactions
+and thermoelectric effects in these devices to improve efficieny and/or reduce waste heat. I use and develop theoretical and computational methods to study these problems.
+My undergraduate background (U. of Tennessee, 2023) includes traditional (macroscale) heat transfer research, and I occasionally still contribute to that area. Please see my Google Scholar page to find my research contributions. </p>
+
+<p>In the computational science area, I think that researchers should make their source code public. To this end, you may find my "code" contributions <a href="/codes">here</a> and on my <a href="https://github.com/lorfrances">GitHub</a> profile.
+    Finally, I am interested in the synergy of research and education; in particular, demonstrations with interactive simulations or models. 
+    For example, I wrote the <a href="/interactive_eMC" target="_blank" rel="noopener noreferrer">Interactive electron Monte Carlo</a> and used it for a lecture in an ECE graduate class.
+</p>

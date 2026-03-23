@@ -2,5 +2,5 @@
 <img src="/images/sample_meni.png"
      style="float: left; width: 250px; margin-right: 20px; margin-bottom: 20px;">
 <p style="font-size: 15px">
-  Long text flows naturally around the image instead of fighting layout constraints...
+These 3 files were developed for use in the Surface Evolver (SE) for 3-D numerical simulations of the capillary surface and pressure in evaporating wick structures. This includes 2 files for the simulation of 3-D printed large capillary structures, and 1 file for a smaller spherical particle-based wick
 </p>

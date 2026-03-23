@@ -1,1 +1,1 @@
-Surface Evolver codes for capillary wick simulation
+**Surface Evolver codes for capillary wick simulation**

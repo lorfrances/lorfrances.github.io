@@ -1,3 +1,5 @@
+<b style="font-size: 16px">GaN diode: electron Monte Carlo simulation</b>
+<hr>
 <b style="font-size: 16px">Surface Evolver codes for capillary wick simulation</b>
 <img src="/images/sample_meni.png"
      style="float: left; width: 250px; margin-right: 20px; margin-bottom: 5px;">

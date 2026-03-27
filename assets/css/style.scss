@@ -23,6 +23,10 @@ header h1 a:hover {
   font-weight: bold;
 }
 
+a:hover, a:focus {
+  color:#069;
+}
+
 header a {
     line-height: 2.0;
 }

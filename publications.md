@@ -2,7 +2,7 @@
   <b>L. Franceschetti</b>, M. Kaviany, S. Shin, Heterobarrier <i>in situ</i> phonon recycling in semiconductor diodes, <a href="https://doi.org/10.1103/bzx4-dpd9"><i>Phys. Rev. Applied</i>, 25, 034063, 2026</a>.
   <br>
   <br>
-   <b>L. Franceschetti</b>, Y. Kameya, M. Kaviany, 3D-printed, ceramic porous metasurface wick: Hexagonal-prism unit-cell capillary evaporator, <i>Int. J. of Heat and Mass Transfer</i>, 246, 127041, 2025.
+   <b>L. Franceschetti</b>, Y. Kameya, M. Kaviany, 3D-printed, ceramic porous metasurface wick: Hexagonal-prism unit-cell capillary evaporator, <a href="https://doi.org/10.1103/bzx4-dpd9"><i>Int. J. of Heat and Mass Transfer</i>, 246, 127041, 2025</a>.
   <br>
   <br>
   F. Lu, <b>L. Franceschetti</b>, K. Krippner, M. Kaviany, T. Daimaru, Analytic thermal conductance for square channel, flat plate oscillating heat pipe: CFD simulations of Taylor liquid film and experiment, <i>Int. J. of Heat and Mass Transfer</i>, 241, 126711, 2025.

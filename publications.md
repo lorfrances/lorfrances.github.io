@@ -5,7 +5,7 @@
    <b>L. Franceschetti</b>, Y. Kameya, M. Kaviany, 3D-printed, ceramic porous metasurface wick: Hexagonal-prism unit-cell capillary evaporator, <a href="https://doi.org/10.1016/j.ijheatmasstransfer.2025.127041"><i>Int. J. of Heat and Mass Transfer</i>, 246, 127041, 2025</a>.
   <br>
   <br>
-  F. Lu, <b>L. Franceschetti</b>, K. Krippner, M. Kaviany, T. Daimaru, Analytic thermal conductance for square channel, flat plate oscillating heat pipe: CFD simulations of Taylor liquid film and experiment, <a href="https://doi.org/10.1016/j.ijheatmasstransfer.2025.126711"><i>Int. J. of Heat and Mass Transfer</i>, 241, 126711, 2025.
+  F. Lu, <b>L. Franceschetti</b>, K. Krippner, M. Kaviany, T. Daimaru, Analytic thermal conductance for square channel, flat plate oscillating heat pipe: CFD simulations of Taylor liquid film and experiment, <a href="https://doi.org/10.1016/j.ijheatmasstransfer.2025.126711"><i>Int. J. of Heat and Mass Transfer</i>, 241, 126711, 2025</a>.
   <br>
   <br>
-   <b>L. Franceschetti</b>, K.D. Kihm, S.P. Rawal, J.R. White, <i>Pulsating Heat Pipe Performance Modeling with Liquid Metal Coolants Under Hypersonic Aerothermal Heating</i>, J. of Thermophysics and Heat Transfer, 39(1), 185-198, 2025.</p>
+   <b>L. Franceschetti</b>, K.D. Kihm, S.P. Rawal, J.R. White, Pulsating Heat Pipe Performance Modeling with Liquid Metal Coolants Under Hypersonic Aerothermal Heating, <a href="https://doi.org/10.2514/1.T6885"><i>J. of Thermophysics and Heat Transfer</i>, 39(1), 185-198, 2025</a>.</p>

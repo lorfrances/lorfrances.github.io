@@ -8,6 +8,7 @@ A Julia codes that simulates 1-D electron transport in solid-state thermionic Al
 <a href="https://github.com/lorfrances/algaas-barriers-MC">GitHub</a> | <a href="https://doi.org/10.1103/mc5p-hb8m">Article</a>
 </p>
 
+<hr>
 <b style="font-size: 16px">GaN diode: electron Monte Carlo simulation</b>
 <img src="/images/sample_MC_GaN.png"
      style="float: left; width: 150px; margin-right: 20px; margin-bottom: 5px; margin-top: 20px;">

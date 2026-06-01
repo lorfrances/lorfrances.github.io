@@ -1,4 +1,7 @@
 <p style="font-size: 15px; margin-top: 10px;">
+  <b>L. Franceschetti</b>, S. Shin, M. Kaviany, Phonon valleytronics: Enhanced phonon absorption by electron valley-energy filtering, <a href="https://doi.org/10.1103/mc5p-hb8m"><i>Phys. Rev. B</i>, 113, 235302 2026</a>.
+  <br>
+  <br>
   <b>L. Franceschetti</b>, M. Kaviany, S. Shin, Heterobarrier <i>in situ</i> phonon recycling in semiconductor diodes, <a href="https://doi.org/10.1103/bzx4-dpd9"><i>Phys. Rev. Applied</i>, 25, 034063, 2026</a>.
   <br>
   <br>

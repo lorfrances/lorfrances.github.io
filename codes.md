@@ -5,7 +5,7 @@
 A Julia codes that simulates 1-D electron transport in solid-state thermionic AlGaAs-based heterojunctions. Unique features include ellipsoidal valleys, a general treatment of lateral momentum conservation, and detailed phonon tracking. It was used to study a method to harness intervalley phonon absorption for local thermoelectric cooling.
      <br>
      <br>
-<a href="https://github.com/lorfrances/GaNDiodeMC">GitHub</a> | <a href="https://doi.org/10.1103/bzx4-dpd9">Article</a>
+<a href="https://github.com/lorfrances/algaas-barriers-MC">GitHub</a> | <a href="https://doi.org/10.1103/mc5p-hb8m">Article</a>
 </p>
 
 <b style="font-size: 16px">GaN diode: electron Monte Carlo simulation</b>

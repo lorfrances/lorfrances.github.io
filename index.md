@@ -6,7 +6,10 @@ My research focuses on nanoscale energy conversion and carrier transport, partic
 
 <p style="font-size: 16px">In the computational science area, I think that researchers should make their source code public. To this end, you may find my "code" contributions <a href="/codes">here</a> and on my <a href="https://github.com/lorfrances">GitHub</a> profile.
     Finally, I am interested in the synergy of research and education; in particular, demonstrations with interactive simulations or models. 
-    For example, I wrote the <a href="/interactive_eMC" target="_blank" rel="noopener noreferrer">Interactive electron Monte Carlo</a> and used it for a lecture in an ECE graduate class. </p>
-
+    For example, I wrote the <a href="/interactive_eMC" target="_blank" rel="noopener noreferrer">Interactive electron Monte Carlo</a> and used it for a lecture in an ECE graduate class.
+    <br>
+    <br>
 <img src="/images/portrait.jpg"
- style="float: center; width: 200px; margin-right: 20px; margin-bottom: 5px; margin-top: 20px;">
+     style="display: block; width: 200px; margin: 20px auto 5px auto;"> </p>
+
+

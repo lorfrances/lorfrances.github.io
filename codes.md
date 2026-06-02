@@ -2,7 +2,7 @@
 <img src="/images/BZ_fig.png"
      style="float: left; width: 155px; margin-right: 20px; margin-bottom: 5px; margin-top: 20px;">
 <p style="font-size: 15px; margin-top: 10px;">
-A Julia codes that simulates 1-D electron transport in solid-state thermionic AlGaAs-based heterojunctions. Unique features include ellipsoidal valleys, a general treatment of lateral momentum conservation, and detailed phonon tracking. It was used to study a method to harness intervalley phonon absorption for local thermoelectric cooling.
+A Julia code that simulates 1-D electron transport in solid-state thermionic AlGaAs-based heterojunctions. Unique features include ellipsoidal valleys, a general treatment of lateral momentum conservation, and detailed phonon tracking. It was used to study a method to harness intervalley phonon absorption for local thermoelectric cooling.
      <br>
      <br>
 <a href="https://github.com/lorfrances/algaas-barriers-MC">GitHub</a> | <a href="https://doi.org/10.1103/mc5p-hb8m">Article</a>

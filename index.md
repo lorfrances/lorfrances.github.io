@@ -2,9 +2,9 @@
 under the supervision of Prof. M. Kaviany. </p>
 
 <p style="font-size: 16px">
-My research focuses on nanoscale energy conversion and carrier transport, particularly in semiconductor devices. Specifically, I am interested in harnessing electron-phonon interactions and thermoelectric effects in these devices to improve efficieny and/or reduce waste heat. I use and develop theoretical and computational methods to study these problems. My undergraduate background (U. of Tennessee, 2023) includes traditional (macroscale) heat transfer research, and I occasionally still contribute to that area. Please see my <a href="/publications">Publications</a> page to find my research contributions. </p>
+My research focuses on nanoscale energy conversion and carrier transport, particularly in semiconductor devices. Specifically, I am interested in harnessing nonequilibrium electron-phonon physics and thermoelectric effects in these devices to improve energy efficieny and/or reduce waste heat. I use and develop theoretical and computational methods to study these problems. My undergraduate background (U. of Tennessee, 2023) includes traditional (macroscale) heat transfer research, and I have also to that area. Please see my <a href="/publications">Publications</a> page to find my research contributions. </p>
 
-<p style="font-size: 16px">In the computational science area, I think that researchers should make their source code public. To this end, you may find my "code" contributions <a href="/codes">here</a> and on my <a href="https://github.com/lorfrances">GitHub</a> profile.
+<p style="font-size: 16px">In the computational science area, I think that researchers should make their source code public. To this end, you may find my code contributions <a href="/codes">here</a> and on my <a href="https://github.com/lorfrances">GitHub</a> profile.
     Finally, I am interested in the synergy of research and education; in particular, demonstrations with interactive simulations or models. 
     For example, I wrote the <a href="/interactive_eMC" target="_blank" rel="noopener noreferrer">Interactive electron Monte Carlo</a> and used it for a lecture in an ECE graduate class.
     <br>

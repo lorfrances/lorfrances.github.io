@@ -239,7 +239,7 @@ function intervalleyRate(E_k, Z_f, mat, valley_i, valley_f, Ep, DefPot, Abs) {
     else {
         E_f = E_k - e_c*Ep - Valley_sep*e_c;
     }
-    const Const =    Z_f * Math.sqrt(2) * (m0*mat.mass[valley_f])**1.5 * (e_c*DefPot)**2 / (Math.PI * mat.dens * Omega_piv * hbar**3); 
+    const Const =    Z_f * Math.sqrt(2) * (m0*mat.mass[valley_f])**1.5 * (e_c*DefPot)**2 / (2*Math.PI * mat.dens * Omega_piv * hbar**3); 
     let W_IV;
     if (E_f/e_c > 1e-6) {
         if (Abs === 1) {
